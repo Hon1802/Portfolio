@@ -1,0 +1,13 @@
+{
+  "welcome": "Chào mừng",
+  "hello": "Xin chào {{name}}",
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Alex Johnson",
+    "description": "Full Stack Developer passionate about creating beautiful, functional, and user-friendly applications",
+    "buttons": {
+      "work": "View My Work",
+      "contact": "Get In Touch"
+    }
+  }
+}
