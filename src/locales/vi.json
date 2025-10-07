@@ -1,13 +1,21 @@
 {
-  "welcome": "Chào mừng",
-  "hello": "Xin chào {{name}}",
+  "mainLeftText":"Nguyễn Văn Hơn",
+  "navItems": {
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "skills": "Kỹ Năng",
+    "projects": "Dự Án",
+    "contact": "Liên Hệ"
+  },
+  "welcome": "welcome",
+  "hello": "hello {{name}}",
   "hero": {
-    "greeting": "Hi, I'm",
+    "greeting": "Xin chào, tôi là",
     "name": "Alex Johnson",
-    "description": "Full Stack Developer passionate about creating beautiful, functional, and user-friendly applications",
+    "description": "Developer Full Stack đam mê tạo ra các ứng dụng đẹp, chức năng và thân thiện với người dùng",
     "buttons": {
-      "work": "View My Work",
-      "contact": "Get In Touch"
+      "work": "Xem Dự Án",
+      "contact": "Liên Hệ"
     }
   }
 }

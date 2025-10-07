@@ -1,3 +1,4 @@
+import I18nText from "@/common/components/I18nText";
 import { HERO_DATA } from "@/common/moc";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
@@ -31,11 +32,13 @@ const Hero = () => {
           </div>
 
           {/* Text */}
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in-up">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in-up leading-tight text-center">
             {t("hero.greeting")}{" "}
-            <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent animate-gradient-x">
-              {t("hero.name")}
-            </span>
+            <I18nText
+              as="span"
+              i18nKey="mainLeftText"
+              className="inline-block bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent animate-gradient-x"
+            />
           </h1>
 
           <p className="text-xl sm:text-2xl text-white/80 mb-8 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">

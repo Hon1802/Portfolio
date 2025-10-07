@@ -1,13 +1,21 @@
 {
-  "welcome": "welcome",
-  "hello": "hello {{name}}",
+  "mainLeftText":"Nguyen Van Hon",
+  "navItems": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "welcome": "Chào mừng",
+  "hello": "Xin chào {{name}}",
   "hero": {
-    "greeting": "Xin chào, tôi là",
+    "greeting": "Hi, I'm",
     "name": "Alex Johnson",
-    "description": "Developer Full Stack đam mê tạo ra các ứng dụng đẹp, chức năng và thân thiện với người dùng",
+    "description": "Full Stack Developer passionate about creating beautiful, functional, and user-friendly applications",
     "buttons": {
-      "work": "Xem Dự Án",
-      "contact": "Liên Hệ"
+      "work": "View My Work",
+      "contact": "Get In Touch"
     }
   }
 }

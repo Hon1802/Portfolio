@@ -1,8 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
-
+import PersonalImg from "./assets/profiles/personal.png";
 export const HERO_DATA = {
-  profileImage:
-    "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+  profileImage: PersonalImg,
   socials: [
     {
       href: "https://github.com",

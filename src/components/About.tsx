@@ -4,9 +4,9 @@ import { Calendar, MapPin, Award } from 'lucide-react';
 
 const About = () => {
   const highlights = [
-    { icon: Calendar, label: '5+ Years', description: 'Experience' },
-    { icon: Award, label: '50+ Projects', description: 'Completed' },
-    { icon: MapPin, label: 'Remote', description: 'Available' },
+    { icon: Calendar, label: '1+ Years', description: 'Experience' },
+    { icon: Award, label: '5+ Projects', description: 'Completed' },
+    { icon: MapPin, label: 'Remote / Full-Time', description: 'Available' },
   ];
 
   return (
@@ -24,7 +24,7 @@ const About = () => {
             <Card className="bg-white/5 backdrop-blur-sm border-white/10 hover:bg-white/10 transition-all duration-300">
               <CardContent className="p-6">
                 <p className="text-white/90 text-lg leading-relaxed mb-6">
-                  I'm a passionate full-stack developer with over 5 years of experience creating digital solutions 
+                  I'm a passionate full-stack developer with over 1 years of experience creating digital solutions 
                   that bridge the gap between design and functionality. I specialize in modern web technologies 
                   and love turning complex problems into simple, beautiful designs.
                 </p>
