@@ -1,0 +1,21 @@
+{
+  "mainLeftText":"Nguyễn Văn Hơn",
+  "navItems": {
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "skills": "Kỹ Năng",
+    "projects": "Dự Án",
+    "contact": "Liên Hệ"
+  },
+  "welcome": "welcome",
+  "hello": "hello {{name}}",
+  "hero": {
+    "greeting": "Xin chào, tôi là",
+    "name": "Alex Johnson",
+    "description": "Developer Full Stack đam mê tạo ra các ứng dụng đẹp, chức năng và thân thiện với người dùng",
+    "buttons": {
+      "work": "Xem Dự Án",
+      "contact": "Liên Hệ"
+    }
+  }
+}
