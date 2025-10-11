@@ -8,7 +8,6 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { Toaster } from "@/components/ui/sonner";
-import { useTranslation } from "react-i18next";
 function App() {
   const [activeSection, setActiveSection] = useState("home");
 

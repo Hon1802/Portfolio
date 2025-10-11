@@ -231,7 +231,7 @@ const Contact = () => {
                 </p>
                 <Button 
                   className="bg-gradient-to-r from-emerald-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-white"
-                  onClick={() => document.querySelector('#message')?.focus()}
+                  // onClick={() => document.querySelector('#message')?.focus()}
                 >
                   Start a Conversation
                 </Button>
